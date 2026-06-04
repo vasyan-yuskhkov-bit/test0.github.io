@@ -24,23 +24,12 @@ p, li {
   font-size: 1.1rem;
 }
 
-/* Адаптация под мобильные */
+/* Адаптивные улучшения */
 @media (max-width: 640px) {
-  h2 {
-    font-size: 1.75rem;
+  .text-5xl {
+    font-size: 2.5rem;
   }
-  
-  .card {
-    padding: 1.5rem;
+  .text-6xl {
+    font-size: 3.5rem;
   }
-}
-
-/* 3D эффект для эмодзи */
-.emoji-3d {
-  display: inline-block;
-  transition: transform 0.4s ease;
-}
-
-.emoji-3d:hover {
-  transform: scale(1.3) rotate(12deg);
 }
