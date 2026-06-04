@@ -3,114 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Защити себя от клеща</title>
+  <title>Защити себя от клеща — Памятка</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen transition-colors">
-  
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 min-h-screen transition-colors">
+
   <!-- HEADER -->
-  <header class="sticky top-0 bg-white dark:bg-gray-800 shadow-md z-50">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+  <header class="sticky top-0 bg-white dark:bg-gray-900 shadow-lg z-50">
+    <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <span class="text-4xl">🛡️</span>
         <h1 class="text-2xl font-bold">Защити себя от клеща</h1>
       </div>
-      
-      <button id="theme-toggle" class="p-3 rounded-xl bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
+      <button id="theme-toggle" class="w-12 h-12 flex items-center justify-center text-2xl rounded-2xl bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition">
         🌙
       </button>
     </div>
   </header>
 
   <!-- HERO -->
-  <section class="bg-gradient-to-br from-green-700 to-emerald-800 text-white py-20">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <div class="text-6xl mb-6">🦟</div>
-      <h2 class="text-5xl font-bold mb-4">Клещевой энцефалит — опасная болезнь</h2>
-      <p class="text-xl max-w-2xl mx-auto">Простые правила, которые помогут защитить вас и вашу семью в лесу, на даче и на прогулке</p>
+  <section class="relative h-[70vh] flex items-center justify-center overflow-hidden">
+    <img src="https://picsum.photos/id/1015/2000/1200" alt="Лес" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70"></div>
+    <div class="relative text-center px-6 max-w-4xl">
+      <div class="text-6xl mb-4">🦟</div>
+      <h2 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Клещевой энцефалит можно предотвратить</h2>
+      <p class="text-xl md:text-2xl text-white/90">Простая и понятная памятка для жителей эндемичных районов</p>
     </div>
   </section>
 
-  <main class="max-w-6xl mx-auto px-6 py-12">
-    
+  <main class="max-w-6xl mx-auto px-5 py-12">
+
     <!-- Введение -->
     <section class="mb-16">
-      <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
-        <span>📋</span> Памятка для жителей эндемичных районов
-      </h2>
+      <h2 class="text-3xl font-bold mb-6">Почему это важно?</h2>
       <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-        Клещи активны с апреля по октябрь. Они переносят опасное заболевание, которое может повлиять на нервную систему. 
-        Но хорошая новость — защититься можно!
+        Клещи особенно активны с апреля по октябрь. Они живут в траве, кустах и лесах. 
+        Один укус может привести к серьёзному заболеванию, которое поражает нервную систему. 
+        Но хорошая новость — защититься довольно просто!
       </p>
     </section>
 
     <!-- Как защититься -->
-    <section class="mb-16">
-      <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+    <section class="mb-20">
+      <h2 class="text-3xl font-bold mb-10 flex items-center gap-3">
         <span>🛡️</span> Как защититься от клещей
       </h2>
-      
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
-          <div class="text-6xl mb-6">👕</div>
-          <h3 class="text-2xl font-semibold mb-3">Правильная одежда</h3>
+        <div class="card">
+          <img src="https://picsum.photos/id/1016/800/600" alt="Одежда" class="w-full h-52 object-cover rounded-3xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4">1. Правильная одежда</h3>
           <ul class="space-y-3 text-lg">
-            <li class="flex gap-2">✅ Длинные штаны и рубашка с длинным рукавом</li>
-            <li class="flex gap-2">✅ Заправляйте штаны в носки</li>
-            <li class="flex gap-2">✅ Светлая одежда — клещей видно лучше</li>
-            <li class="flex gap-2">✅ Головной убор</li>
+            <li>✅ Длинные штаны и рубашка с длинным рукавом</li>
+            <li>✅ Заправляйте штаны в носки, а рубашку в штаны</li>
+            <li>✅ Светлая одежда — клещей легче заметить</li>
+            <li>✅ Шляпа или кепка</li>
           </ul>
         </div>
 
-        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
-          <div class="text-6xl mb-6">🧴</div>
-          <h3 class="text-2xl font-semibold mb-3">Средства от клещей</h3>
+        <div class="card">
+          <img src="https://picsum.photos/id/201/800/600" alt="Репеллент" class="w-full h-52 object-cover rounded-3xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4">2. Средства защиты</h3>
           <ul class="space-y-3 text-lg">
-            <li class="flex gap-2">✅ Репелленты на одежду и кожу</li>
-            <li class="flex gap-2">✅ Акарицидные средства (убивают клещей)</li>
-            <li class="flex gap-2">✅ Обновляйте защиту каждые 2–3 часа</li>
+            <li>✅ Репелленты на кожу (отпугивают)</li>
+            <li>✅ Акарицидные спреи на одежду (убивают клещей)</li>
+            <li>✅ Обновляйте защиту каждые 2–3 часа</li>
           </ul>
         </div>
 
-        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
-          <div class="text-6xl mb-6">💉</div>
-          <h3 class="text-2xl font-semibold mb-3">Вакцинация</h3>
-          <p class="text-lg">Самый надёжный способ защиты. Полный курс — 3 прививки. Спросите в поликлинике.</p>
+        <div class="card">
+          <img src="https://picsum.photos/id/866/800/600" alt="Вакцина" class="w-full h-52 object-cover rounded-3xl mb-6">
+          <h3 class="text-2xl font-semibold mb-4">3. Вакцинация</h3>
+          <p class="text-lg">Самый надёжный способ. Полный курс — 3 прививки. Спросите в своей поликлинике о бесплатной вакцинации.</p>
         </div>
       </div>
     </section>
 
     <!-- Что делать при укусе -->
-    <section class="mb-16 bg-amber-50 dark:bg-gray-800 p-10 rounded-3xl">
+    <section class="mb-20 bg-amber-50 dark:bg-gray-900 p-8 md:p-12 rounded-3xl">
       <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
         <span>🚨</span> Клещ присосался — что делать?
       </h2>
-      <div class="grid md:grid-cols-2 gap-10">
-        <div>
-          <ol class="space-y-6 text-lg">
-            <li><strong>1.</strong> Не паникуйте. Аккуратно удалите клеща с помощью нитки, пинцета или специального устройства.</li>
-            <li><strong>2.</strong> Обработайте место укуса спиртом или хлоргексидином.</li>
-            <li><strong>3.</strong> Сдайте клеща на анализ (желательно в течение 3 дней).</li>
-            <li><strong>4.</strong> Обратитесь к врачу — может понадобиться экстренная профилактика.</li>
-          </ol>
-        </div>
-        <div class="text-8xl flex items-center justify-center">🦠</div>
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <ol class="space-y-6 text-lg">
+          <li><strong>1.</strong> Не паникуйте. Аккуратно удалите клеща пинцетом или специальным приспособлением, не дёргая.</li>
+          <li><strong>2.</strong> Обработайте место укуса спиртом или антисептиком.</li>
+          <li><strong>3.</strong> Сохраните клеща в баночке и сдайте на анализ в лабораторию.</li>
+          <li><strong>4.</strong> Обратитесь к врачу как можно скорее — может потребоваться профилактика.</li>
+        </ol>
+        <img src="https://picsum.photos/id/1074/800/600" alt="Удаление клеща" class="rounded-3xl shadow-xl">
       </div>
     </section>
 
-    <!-- Симптомы -->
-    <section class="mb-16">
-      <h2 class="text-3xl font-bold mb-8">Когда нужно срочно к врачу?</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-red-50 dark:bg-gray-800 border border-red-200 dark:border-red-900 p-6 rounded-2xl">
-          <p class="text-red-600 dark:text-red-400 font-medium mb-2">Через 3–14 дней после укуса</p>
-          <ul class="space-y-2">
-            <li>● Высокая температура</li>
-            <li>● Сильная головная боль</li>
-            <li>● Боль в мышцах и суставах</li>
-            <li>● Тошнота, рвота</li>
-            <li>● Слабость, сонливость</li>
+    <!-- Полезные советы -->
+    <section class="mb-20">
+      <h2 class="text-3xl font-bold mb-10">Полезные советы</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-3xl shadow">
+          <p class="text-5xl mb-6">🌲</p>
+          <h3 class="font-semibold text-xl mb-4">В лесу и на даче</h3>
+          <ul class="space-y-3">
+            <li>• Ходите по тропинкам, не заходите в высокую траву</li>
+            <li>• После прогулки тщательно осмотрите себя и детей</li>
+            <li>• Особое внимание — подмышки, пах, шея, голова</li>
+          </ul>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-3xl shadow">
+          <p class="text-5xl mb-6">👨‍👩‍👧‍👦</p>
+          <h3 class="font-semibold text-xl mb-4">Для детей и животных</h3>
+          <ul class="space-y-3">
+            <li>• Детей осматривайте особенно внимательно</li>
+            <li>• Собак и кошек тоже проверяйте после улицы</li>
+            <li>• Используйте специальные средства для животных</li>
           </ul>
         </div>
       </div>
@@ -119,10 +124,10 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="bg-gray-800 text-white py-12">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <p class="text-xl mb-4">Берегите себя и своих близких ❤️</p>
-      <p>Сайт создан для жителей эндемичных районов</p>
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-5 text-center">
+      <p class="text-2xl mb-4">Берегите себя и своих близких ❤️</p>
+      <p class="text-gray-400">Памятка для жителей эндемичных районов России</p>
     </div>
   </footer>
 
