@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Защити себя от клеща</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen transition-colors">
+  
+  <!-- HEADER -->
+  <header class="sticky top-0 bg-white dark:bg-gray-800 shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <span class="text-4xl">🛡️</span>
+        <h1 class="text-2xl font-bold">Защити себя от клеща</h1>
+      </div>
+      
+      <button id="theme-toggle" class="p-3 rounded-xl bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-gradient-to-br from-green-700 to-emerald-800 text-white py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <div class="text-6xl mb-6">🦟</div>
+      <h2 class="text-5xl font-bold mb-4">Клещевой энцефалит — опасная болезнь</h2>
+      <p class="text-xl max-w-2xl mx-auto">Простые правила, которые помогут защитить вас и вашу семью в лесу, на даче и на прогулке</p>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    
+    <!-- Введение -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+        <span>📋</span> Памятка для жителей эндемичных районов
+      </h2>
+      <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+        Клещи активны с апреля по октябрь. Они переносят опасное заболевание, которое может повлиять на нервную систему. 
+        Но хорошая новость — защититься можно!
+      </p>
+    </section>
+
+    <!-- Как защититься -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+        <span>🛡️</span> Как защититься от клещей
+      </h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">👕</div>
+          <h3 class="text-2xl font-semibold mb-3">Правильная одежда</h3>
+          <ul class="space-y-3 text-lg">
+            <li class="flex gap-2">✅ Длинные штаны и рубашка с длинным рукавом</li>
+            <li class="flex gap-2">✅ Заправляйте штаны в носки</li>
+            <li class="flex gap-2">✅ Светлая одежда — клещей видно лучше</li>
+            <li class="flex gap-2">✅ Головной убор</li>
+          </ul>
+        </div>
+
+        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">🧴</div>
+          <h3 class="text-2xl font-semibold mb-3">Средства от клещей</h3>
+          <ul class="space-y-3 text-lg">
+            <li class="flex gap-2">✅ Репелленты на одежду и кожу</li>
+            <li class="flex gap-2">✅ Акарицидные средства (убивают клещей)</li>
+            <li class="flex gap-2">✅ Обновляйте защиту каждые 2–3 часа</li>
+          </ul>
+        </div>
+
+        <div class="card bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">💉</div>
+          <h3 class="text-2xl font-semibold mb-3">Вакцинация</h3>
+          <p class="text-lg">Самый надёжный способ защиты. Полный курс — 3 прививки. Спросите в поликлинике.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Что делать при укусе -->
+    <section class="mb-16 bg-amber-50 dark:bg-gray-800 p-10 rounded-3xl">
+      <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+        <span>🚨</span> Клещ присосался — что делать?
+      </h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <ol class="space-y-6 text-lg">
+            <li><strong>1.</strong> Не паникуйте. Аккуратно удалите клеща с помощью нитки, пинцета или специального устройства.</li>
+            <li><strong>2.</strong> Обработайте место укуса спиртом или хлоргексидином.</li>
+            <li><strong>3.</strong> Сдайте клеща на анализ (желательно в течение 3 дней).</li>
+            <li><strong>4.</strong> Обратитесь к врачу — может понадобиться экстренная профилактика.</li>
+          </ol>
+        </div>
+        <div class="text-8xl flex items-center justify-center">🦠</div>
+      </div>
+    </section>
+
+    <!-- Симптомы -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold mb-8">Когда нужно срочно к врачу?</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-red-50 dark:bg-gray-800 border border-red-200 dark:border-red-900 p-6 rounded-2xl">
+          <p class="text-red-600 dark:text-red-400 font-medium mb-2">Через 3–14 дней после укуса</p>
+          <ul class="space-y-2">
+            <li>● Высокая температура</li>
+            <li>● Сильная головная боль</li>
+            <li>● Боль в мышцах и суставах</li>
+            <li>● Тошнота, рвота</li>
+            <li>● Слабость, сонливость</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-xl mb-4">Берегите себя и своих близких ❤️</p>
+      <p>Сайт создан для жителей эндемичных районов</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

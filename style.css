@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+/* Улучшенная читаемость */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+p, li {
+  font-size: 1.1rem;
+}
+
+/* 3D эффект для эмодзи */
+.emoji-3d {
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+
+.emoji-3d:hover {
+  transform: scale(1.3) rotate(12deg);
+}
