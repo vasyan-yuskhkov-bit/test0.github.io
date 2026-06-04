@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen">
-
+  
   <!-- HEADER -->
   <header class="sticky top-0 bg-white shadow-md z-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
@@ -20,17 +20,16 @@
   </header>
 
   <!-- HERO -->
-  <section class="bg-gradient-to-br from-green-700 to-emerald-800 text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1583321500900-9e5c8a6e6f0a')] bg-cover bg-center opacity-20"></div>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center relative">
-      <div class="text-6xl md:text-7xl mb-6">🦟</div>
-      <h2 class="text-4xl md:text-5xl font-bold mb-4">Клещевой энцефалит — опасная болезнь</h2>
-      <p class="text-lg md:text-xl max-w-2xl mx-auto">Простые правила, которые помогут защитить вас и вашу семью</p>
+  <section class="bg-gradient-to-br from-green-700 to-emerald-800 text-white py-16 sm:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+      <div class="text-6xl mb-6">🦟</div>
+      <h2 class="text-4xl sm:text-5xl font-bold mb-4">Клещевой энцефалит — опасная болезнь</h2>
+      <p class="text-lg sm:text-xl max-w-2xl mx-auto">Простые правила, которые помогут защитить вас и вашу семью в лесу, на даче и на прогулке</p>
     </div>
   </section>
 
-  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
+    
     <!-- Введение -->
     <section class="mb-16">
       <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
@@ -48,14 +47,9 @@
         <span>🛡️</span> Как защититься от клещей
       </h2>
       
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        
-        <!-- Карточка 1 -->
-        <div class="card bg-white p-6 md:p-8 rounded-3xl shadow-xl">
-          <img src="https://images.unsplash.com/photo-1622290291469-4f0d6f0f3f3f" 
-               alt="Правильная одежда от клещей" 
-               class="w-full h-48 object-cover rounded-2xl mb-6">
-          <div class="text-5xl mb-4">👕</div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div class="card bg-white p-6 sm:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">👕</div>
           <h3 class="text-2xl font-semibold mb-3">Правильная одежда</h3>
           <ul class="space-y-3 text-lg">
             <li class="flex gap-2">✅ Длинные штаны и рубашка с длинным рукавом</li>
@@ -65,12 +59,8 @@
           </ul>
         </div>
 
-        <!-- Карточка 2 -->
-        <div class="card bg-white p-6 md:p-8 rounded-3xl shadow-xl">
-          <img src="https://images.unsplash.com/photo-1583947581924-860bda6c6c8f" 
-               alt="Средства от клещей" 
-               class="w-full h-48 object-cover rounded-2xl mb-6">
-          <div class="text-5xl mb-4">🧴</div>
+        <div class="card bg-white p-6 sm:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">🧴</div>
           <h3 class="text-2xl font-semibold mb-3">Средства от клещей</h3>
           <ul class="space-y-3 text-lg">
             <li class="flex gap-2">✅ Репелленты на одежду и кожу</li>
@@ -79,12 +69,8 @@
           </ul>
         </div>
 
-        <!-- Карточка 3 -->
-        <div class="card bg-white p-6 md:p-8 rounded-3xl shadow-xl">
-          <img src="https://images.unsplash.com/photo-1584515933487-186a1e1c4e2b" 
-               alt="Вакцинация от клещевого энцефалита" 
-               class="w-full h-48 object-cover rounded-2xl mb-6">
-          <div class="text-5xl mb-4">💉</div>
+        <div class="card bg-white p-6 sm:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition">
+          <div class="text-6xl mb-6">💉</div>
           <h3 class="text-2xl font-semibold mb-3">Вакцинация</h3>
           <p class="text-lg">Самый надёжный способ защиты. Полный курс — 3 прививки. Спросите в поликлинике.</p>
         </div>
@@ -92,11 +78,11 @@
     </section>
 
     <!-- Что делать при укусе -->
-    <section class="mb-16 bg-amber-50 p-8 md:p-10 rounded-3xl">
+    <section class="mb-16 bg-amber-50 p-6 sm:p-10 rounded-3xl">
       <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
         <span>🚨</span> Клещ присосался — что делать?
       </h2>
-      <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="grid md:grid-cols-2 gap-8 sm:gap-10">
         <div>
           <ol class="space-y-6 text-lg">
             <li><strong>1.</strong> Не паникуйте. Аккуратно удалите клеща с помощью нитки, пинцета или специального устройства.</li>
@@ -105,11 +91,7 @@
             <li><strong>4.</strong> Обратитесь к врачу — может понадобиться экстренная профилактика.</li>
           </ol>
         </div>
-        <div class="flex justify-center">
-          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" 
-               alt="Клещ" 
-               class="w-full max-w-xs rounded-2xl shadow-lg">
-        </div>
+        <div class="text-8xl flex items-center justify-center">🦠</div>
       </div>
     </section>
 
@@ -118,8 +100,8 @@
       <h2 class="text-3xl font-bold mb-8">Когда нужно срочно к врачу?</h2>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="bg-red-50 border border-red-200 p-6 rounded-2xl">
-          <p class="text-red-600 font-medium mb-4">Через 3–14 дней после укуса</p>
-          <ul class="space-y-2 text-lg">
+          <p class="text-red-600 font-medium mb-2">Через 3–14 дней после укуса</p>
+          <ul class="space-y-2">
             <li>● Высокая температура</li>
             <li>● Сильная головная боль</li>
             <li>● Боль в мышцах и суставах</li>
@@ -134,12 +116,11 @@
 
   <!-- FOOTER -->
   <footer class="bg-gray-800 text-white py-12">
-    <div class="max-w-6xl mx-auto px-6 text-center">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
       <p class="text-xl mb-4">Берегите себя и своих близких ❤️</p>
       <p>Сайт создан для жителей эндемичных районов</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
